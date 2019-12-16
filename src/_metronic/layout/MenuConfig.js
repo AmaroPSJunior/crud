@@ -436,23 +436,24 @@ export default {
           ]
         }
       },
-      // {
-      //   title: "Components",
-      //   root: true,
-      //   alignment: "left",
-      //   toggle: "click",
-      //   submenu: [
-      //     {
-      //       title: "React Bootstrap",
-      //       bullet: "dot",
-      //       icon: "flaticon-web",
-      //       submenu: [
-      //
-      //
-      //       ]
-      //     }
-      //   ]
-      // },
+      {
+        title: "Components",
+        root: true,
+        alignment: "left",
+        toggle: "click",
+        submenu: [
+          {
+            title: "React Bootstrap",
+            bullet: "dot",
+            icon: "flaticon-web",
+            submenu: [
+              {
+                title: "texto"
+              }  
+            ]
+          }
+        ]
+      },
       {
         title: "Custom",
         root: true,
@@ -515,6 +516,49 @@ export default {
         root: true,
         icon: "flaticon2-expand",
         page: "builder"
+      },
+      {
+        title: "Item1",
+        root: true,
+        icon: "flaticon2-expand",
+        submenu: [
+          {
+            title: "Layout",
+            bullet: "dot",
+            submenu: [
+              {
+                title: "Box",
+                page: "google-material/layout/box"
+              },
+              {
+                title: "Container",
+                page: "google-material/layout/container"
+              },
+              {
+                title: "Hidden",
+                page: "google-material/layout/hidden"
+              }
+            ]
+          },
+          {
+            title: "Navigation",
+            bullet: "dot",
+            submenu: [
+              {
+                title: "Bottom Navigation",
+                page: "google-material/navigation/bottom-navigation"
+              },
+              {
+                title: "Steppers",
+                page: "google-material/navigation/steppers"
+              },
+              {
+                title: "Tabs",
+                page: "google-material/navigation/tabs"
+              }
+            ]
+          }
+        ]
       },
       { section: "Components" },
       {
